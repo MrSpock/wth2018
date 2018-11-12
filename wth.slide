@@ -1,0 +1,91 @@
+Co mi lata w powietrzu ?
+Reverse engineering 101 na przykładzie stacji pogodowej z Biedronki
+
+1 Grudzień 2018
+Tags: sdr python wthconf
+
+Marcin Jurczuk
+marcin@jurczuk.eu
+https://gihub.com/mrspock
+@mjurczuk
+SO5HMF
+
+* Who Am I ?
+#.background sand.jpg
+.image images/emblem.jpg _ 200
+ 
+- z wykształcenia mechanik samochodowy i fizyk
+- 9 - 17 Główny specjalista d/s sieci DOCSIS/PON, Netia S.A
+- A po siedemnastej maker/tinkerer/hacker
+- krótkofalowiec SO5HMF
+
+: Wspomnieć tłumaczeniu słów
+
+* Słowniczek pojęć abyśmy byli na tej samej fali
+- Radio: Nadawanie i emisja fal elektromagnetycznych. Dla naszych potrzeb w zakresie do 1 GHz
+- SDR: Software Defined Radio, oddzielenie części procesu obróbki sygnału od hardware i przeniesienie tego w software
+
+* Co my tu robimy  - obalamy mity na temat komunikacji radiowej !
+- "radio" często jest uwazane jest za trudne i skomplikowane
+- "niewidzialność" dla producendów często oznacza w/g nich bezpieczeństwo ( :-) )
+- sprzęt wymagany do rozpoczęcia zabawy jest drogi
+- po co ? Nie widzę zastosowania dla tej wiedzy
+
+Przyjrzyjmy się tym punktom zanim zaczniemy ..
+
+* "radio" często jest uwazane jest za trudne i skomplikowane
+.image images/maxwell.svg _ 400
+: Pierwsze to prawo Gaussa
+: Drugie to prawo Gaussa dla magnetyzmu
+: Trzecie Prawo Faradaja dla magnetyzmu
+: Czwarte prawo Amperr'a-Maxwell'a
+
+
+* Niewidzialność dla producendów często oznacza w/g nich bezpieczeństwo ( :-) )
+Producenci wielu urządzeń mają mentalnosć 2 latka: 
+
+"skoro czegoś nie widać to znaczy, ze tego nie ma"
+
+- Tanie urządzenia nie mają absolutnie żadnych zabezpieczen przed przechwyceniem informacji
+- Te całkiem nie tanie też :)
+
+* Sprzęt wymagany do rozpoczęcia zabawy jest drogi
+
+Przy pewnych założeniach może być tano. Koszt urządzeń jakie użyłem nie przekroczył 100 PLN
+
+Założenia:
+- wiemy na jakiej częstotliwośći pracuje urządzenie
+- podejrzewamy jaka jest zastosowana modulacja
+
+Co potrzebujemy ?
+- odbiornik sygnału radiowego
+- obwód zasilania
+- analizator protokołów
+- komputer
+- *wiedza*
+
+* Odbionik sygnału radiowego
+.image images/myfriend.png _ 900
+
+Majfriend ma wszystko o ile my mamy cierpliwość
+
+
+* Obwód zasilania i płytka stykowa (breadboard)
+.image images/bboard.png _ 900
+
+Koszty szybują w górę ..
+
+* Analizator stanów logicznych
+.image images/analizator.png _ 900
+
+Jedna z najbardziej przydatnych rzeczy w domowym labie.
+- 8 kanałów
+- szybkość próbkowania 24 MHz
+- software dekoduje popularne protokoły (Serial,I2C,SPI)
+
+* Dla patriotów / Niecierpliwych 
+.image images/botland.png _ 900
+
+* Początek przygody
+
+
