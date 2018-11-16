@@ -83,6 +83,11 @@ Jedna z najbardziej przydatnych rzeczy w domowym labie.
 - szybkość próbkowania 24 MHz
 - software dekoduje popularne protokoły (Serial,I2C,SPI)
 
+* Tuner DVB-T/SDR
+.image images/dongle.png _ 900 
+
+Uniwersalny odbiornik w paśmie 100-1000MHz ze znakomitym wsparciem open source
+
 * Dla patriotów / Niecierpliwych 
 .image images/botland.png _ 900
 
@@ -104,4 +109,39 @@ Zdecydowana większość urządzeń konsumenckich będzie pracować w jednym z p
 - 26.957 MHz <-> 27.283 MHz
 - 433.05 MHz <-> 434.79 MHz
 - 863 MHz <-> 870 MHz 
+
+* Modulacje
+
+Typy modulacji:
+AM - Amplitude Modulation
+- ASK Amplitude Shift Keying 
+- OOK (On Off Keying) najprostsza odmiana ASK
+- PWM/PDM Pulse Width(Duration) Modulation
+
+FM - Frequency Modulation
+- FSK - odpowiednik ASK dla modulacji FM
+
+Mieszane:
+- B(Q)PSK
+- QAM
+- OFDM
+
+* Na początku to ja chciałem "zbackupować" rączkę od odkurzacza
+.image images/miele_hand_remote.png _ 400
+
+* Widmo sygnału AM
+.image images/spectrum.png 500 _
+
+Tylko ciągle miałem mniejsze lub większe "szpilki" które pojawiały się  na moich oczach.
+
+* Stacja pogodowa
+Źródło okazało się stać za oknem
+.image images/stacja.jpg _ 450
+
+* Proces zamiany sygnału radiowego w zera i jedynki
+Pakiet
+.image images/weather_2.png 80 _ 
+
+Ramka
+.image images/weather_1.png 80 _ 
 
