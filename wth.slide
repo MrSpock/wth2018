@@ -26,14 +26,14 @@ SO5HMF
 - SDR: Software Defined Radio, oddzielenie części procesu obróbki sygnału od hardware i przeniesienie tego w software
 
 * Co my tu robimy  - obalamy mity na temat komunikacji radiowej !
-- "radio" często jest uwazane jest za trudne i skomplikowane
-- "niewidzialność" dla producendów często oznacza w/g nich bezpieczeństwo ( :-) )
+- "radio" często jest uważane jest za trudne i skomplikowane
+- "niewidzialność" dla producentów często oznacza w/g nich bezpieczeństwo ( :-) )
 - sprzęt wymagany do rozpoczęcia zabawy jest drogi
 - po co ? Nie widzę zastosowania dla tej wiedzy
 
 Przyjrzyjmy się tym punktom zanim zaczniemy ..
 
-* "radio" często jest uwazane jest za trudne i skomplikowane
+* "radio" często jest uważane jest za trudne i skomplikowane
 .image images/maxwell.png _ 400
 : Pierwsze to prawo Gaussa
 : Drugie to prawo Gaussa dla magnetyzmu
