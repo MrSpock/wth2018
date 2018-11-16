@@ -34,7 +34,7 @@ SO5HMF
 Przyjrzyjmy się tym punktom zanim zaczniemy ..
 
 * "radio" często jest uwazane jest za trudne i skomplikowane
-.image images/maxwell.svg _ 400
+.image images/maxwell.png _ 400
 : Pierwsze to prawo Gaussa
 : Drugie to prawo Gaussa dla magnetyzmu
 : Trzecie Prawo Faradaja dla magnetyzmu
@@ -87,5 +87,21 @@ Jedna z najbardziej przydatnych rzeczy w domowym labie.
 .image images/botland.png _ 900
 
 * Początek przygody
+Zanim zaczniesz _zawsze_ użyj google. 
+Może ktos już zrobił to co ty planujesz
 
+* "Touchless" Reverse engineering 
+- zobacz ile urzadzenie kosztowało
+- czy jest podobne do innych jakie widziałeś
+- jeśli widać komponenty zrób foto na potem (buzzery w restauracjach)
+
+* Podstawy podstaw transmisji radiowych
+- transmisja radiowa to po prostu emisja fal elektromagnetycznych
+- najistotniejsza rzecz jakie musimy wiedzieć to częstotliwośc i rodzaj modulacji
+
+* Częstotliwość
+Zdecydowana większość urządzeń konsumenckich będzie pracować w jednym z poniższych pasm "sub 1G":
+- 26.957 MHz <-> 27.283 MHz
+- 433.05 MHz <-> 434.79 MHz
+- 863 MHz <-> 870 MHz 
 
