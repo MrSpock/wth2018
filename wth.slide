@@ -145,3 +145,30 @@ Pakiet
 Ramka
 .image images/weather_1.png 80 _ 
 
+: Tutaj nalezy omówić szczegółowo po czym poznać PDM/PWM od manchestera/czy innych wymagających transmisji zegara
+
+* Analiza danych
+Temp               Dane
+18,8 C          101001101000000010111100111100000000
+20,1 C          101001101000000011001001111100000000
+20,7 C          101001101000000011010000111100000000
+
+* Analiza danych cd ..
+Temp               Dane
+18,8 C          1010011010000000 *101111001111* 00000000
+20,1 C          1010011010000000 *110010011111* 00000000
+20,7 C          1010011010000000 *110100001111* 00000000
+
+
+* Skrypt
+.play decode.py
+
+* Co dalej ?
+Wodomierze i podzielniki kosztów ogrzewania
+.image images/wodomierz.png
+.image images/opis_wodomierza.png
+
+* Headstart dla chętnych na wodomierze
+Przez sylwestra miałem możliwość obejrzeć w środku  podzielnik :)
+Będziecie potrzebowali tego
+.image images/cc1101.png 
